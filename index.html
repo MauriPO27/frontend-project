@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Simple</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Bienvenido al Proyecto de Microservicios</h1>
+
+    <!-- Formulario para login -->
+    <section>
+        <h2>Login</h2>
+        <form id="loginForm">
+            <input type="email" id="email" placeholder="Correo Electrónico" required />
+            <input type="password" id="password" placeholder="Contraseña" required />
+            <button type="submit">Login</button>
+        </form>
+        <p id="loginMessage"></p>
+    </section>
+
+    <!-- Formulario para registro -->
+    <section>
+        <h2>Registro</h2>
+        <form id="registerForm">
+            <input type="text" id="username" placeholder="Nombre de usuario" required />
+            <input type="email" id="registerEmail" placeholder="Correo Electrónico" required />
+            <input type="password" id="registerPassword" placeholder="Contraseña" required />
+            <button type="submit">Registrar</button>
+        </form>
+        <p id="registerMessage"></p>
+    </section>
+
+    <!-- Formulario para convertir texto -->
+    <section>
+        <h2>Convertir Texto</h2>
+        <form id="convertForm">
+            <input type="text" id="inputString" placeholder="Escribe algo" required />
+            <button type="submit">Convertir</button>
+        </form>
+        <p id="convertedText"></p>
+    </section>
+
+    <script src="script.js"></script> <!-- Vinculamos el archivo JS -->
+</body>
+</html>
